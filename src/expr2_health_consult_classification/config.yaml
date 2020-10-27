@@ -1,0 +1,15 @@
+dataset:
+  train_data_file: ../../data/expr2/health_consult_data_train.csv
+  test_data_file: ../../data/expr2/health_consult_data_test.csv
+  dict_file: ../../data/expr2/health_consult_dict.json
+model:
+  embed_num: 41000
+  embed_dim: 10
+  kernel_sizes: [3, 4, 5]
+  class_num: 5
+  dropout_p: 0.3
+train:
+  epoch: 10
+  print_freq: 1000
+  batch_size: 10
+  lr: 0.002
